@@ -1,132 +1,56 @@
-You are building a modern, cinematic portfolio website for a professional
-VIDEO EDITOR & MOTION DESIGNER.
+# Moiz - Video Editor Portfolio
 
-The design inspiration is a dark, minimal, creative video editor portfolio
-with strong typography, full-width sections, and focus on video content.
-(No need to copy any specific design pixel-by-pixel.)
+A modern, interactive portfolio website showcasing video editing and motion design work with a unique video editor-inspired timeline interface.
 
-==============================
-TECH STACK (STRICT)
-==============================
-- HTML5
-- CSS3 (modern CSS, flexbox, grid)
-- Vanilla JavaScript (NO React, NO frameworks)
-- Clean, readable, commented code
+## 🎯 Project Overview
 
-==============================
-PROJECT STRUCTURE
-==============================
-/index.html
-/css/style.css
-/js/main.js
-/images/moiz.png (profile image placeholder)
-/videos/ (video links will be external Google Drive links)
+This portfolio website is designed for Moiz, a professional video editor and motion designer, to showcase his creative work through an immersive and interactive experience. The site features a bottom timeline bar that allows visitors to navigate through the portfolio smoothly, inspired by video editing software interfaces.
 
-==============================
-GENERAL DESIGN STYLE
-==============================
-- Dark theme (near black background)
-- Cinematic feel
-- Minimal text
-- Large headings
-- Smooth transitions
-- Professional creative studio look
+## 🛠️ Tech Stack
 
-==============================
-SECTIONS REQUIRED
-==============================
+- **HTML5** - Semantic markup and structure
+- **CSS3** - Modern styling with custom properties, flexbox, and grid
+- **Vanilla JavaScript** - Interactive features and timeline functionality
+- **Font Awesome** - Icon library
+- **Google Fonts** - Typography (Poppins & Inter)
 
-1) HERO SECTION
-- Full viewport height
-- Left side: text
-  - Name (placeholder)
-  - Title: "Video Editor & Motion Designer"
-  - Short tagline (placeholder)
-- Right side:
-  - Profile image loaded from ./images/moiz.png
-  - Image should be circular or softly rounded
-- CTA buttons:
-  - "View Work"
-  - "Contact"
+## ✨ Key Features
 
-2) SHOWREEL / PORTFOLIO SECTION
-- Grid layout for videos
-- Total videos: 8
-- Videos will be embedded using Google Drive links (placeholders for now)
-- Each video card:
-  - Thumbnail placeholder
-  - Title
-  - Short description
-- Clicking opens video in modal/lightbox overlay
-- Categorize visually:
-  - Short-form
-  - Long-form
+- **Interactive Timeline** - Drag or click the playhead to navigate through sections
+- **Video Integration** - Google Drive-hosted videos with modal playback
+- **Responsive Design** - Optimized for all screen sizes
+- **Smooth Animations** - CSS transitions and scroll-based interactions
+- **Contact Integration** - Direct email and phone contact options
 
-3) ABOUT SECTION
-- Short professional bio placeholder
-- Focus on:
-  - Experience
-  - Creative style
-  - Tools expertise (Premiere Pro, After Effects – text only)
+## 📂 Project Structure
 
-4) SOCIAL LINKS SECTION
-- Icons only UI
-- Facebook, X (Twitter), LinkedIn
-- Links will be added later, but UI must be present
-- Hover animation on icons
+```
+moiz-portfolio/
+├── index.html          # Main HTML file
+├── css/
+│   └── style.css      # Styling and animations
+├── js/
+│   └── main.js        # Interactive features and timeline
+├── images/            # Image assets
+└── videos/            # Video resources
+```
 
-5) FOOTER
-- Minimal
-- Name + role
-- Dark and subtle
+## 🚀 Why This Project?
 
-==============================
-UNIQUE FEATURE (IMPORTANT)
-==============================
+This portfolio was created to provide a unique, engaging way for Moiz to present his video editing work to potential clients. The timeline interface reflects his profession while offering an intuitive navigation experience that sets him apart from traditional portfolio websites.
 
-Create a FIXED bottom mini timeline inspired by video editing software.
+## 👨‍💻 Developer
 
-TIMELINE REQUIREMENTS:
-- Fixed at bottom of screen
-- Small height (approx 32–40px)
-- Dark UI
-- Horizontal bar
-- Movable playhead indicator
-- Play and Pause buttons
+**Malik Obaid Ur Rehman**  
+Full Stack Developer
 
-TIMELINE BEHAVIOR:
-- When Play is clicked:
-  - Playhead animates smoothly from left to right
-  - Duration approx 6–8 seconds
-- When it reaches the end:
-  - Animation stops
-  - Playhead resets to the start
-  - Page smoothly scrolls back to the top
-- Pause button stops animation immediately
-- Timeline should NOT interfere with page scrolling
+Developed as a custom portfolio solution combining modern web technologies with creative design to deliver an exceptional user experience.
 
-Use vanilla JavaScript animation logic.
-GSAP is NOT required but smooth CSS transforms are preferred.
+## 📧 Contact
 
-==============================
-CODE QUALITY
-==============================
-- Use semantic HTML
-- Use CSS variables for colors
-- Add meaningful comments
-- Make layout responsive
-- Keep JS modular (functions)
+- **Email**: malikmoiz196@gmail.com
+- **Phone**: +92 318 0820279
 
-==============================
-PLACEHOLDERS
-==============================
-- Profile image path: ./images/moiz.png
-- Video links: placeholder Google Drive URLs
-- Social media links: "#" for now
+---
 
-==============================
-GOAL
-==============================
-Create a visually impressive, professional video editor portfolio
-that feels inspired by real video editing software UI,
-with a unique interactive timeline at the bottom.
+© 2026 Moiz Portfolio. All rights reserved.
